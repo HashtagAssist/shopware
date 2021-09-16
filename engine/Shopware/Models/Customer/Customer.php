@@ -451,7 +451,7 @@ class Customer extends LazyFetchModelEntity
      * @Assert\NotBlank()
      * @ORM\Column(name="firstname", type="text", nullable=false)
      */
-    private $firstname;
+    private $firstName;
 
     /**
      * @var string
@@ -459,7 +459,7 @@ class Customer extends LazyFetchModelEntity
      * @Assert\NotBlank()
      * @ORM\Column(name="lastname", type="text", nullable=false)
      */
-    private $lastname;
+    private $lastName;
 
     /**
      * @var \DateTimeInterface
